@@ -1,0 +1,28 @@
+{
+  "name": "dbgate-plugin-tools",
+  "version": "1.0.3",
+  "homepage": "https://github.com/dbshell/dbgate-plugin-tools",
+  "description": "Tools for DbGate plugin development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbshell/dbgate-plugin-tools.git"
+  },
+  "author": "Jan Prochazka",
+  "license": "GPL",
+  "keywords": [
+    "development",
+    "dbgate",
+    "plugin"
+  ],
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "dbgate-plugin": "./bin/dbgate-plugin.js",
+    "dbgate-plugout": "./bin/dbgate-plugout.js"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "ncp": "^2.0.0"
+  }
+}
