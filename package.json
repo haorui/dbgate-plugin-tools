@@ -1,6 +1,6 @@
 {
   "name": "dbgate-plugin-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/dbshell/dbgate-plugin-tools",
   "description": "Tools for DbGate plugin development",
   "repository": {
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "rimraf": "^3.0.2",
+    "pacote": "^11.1.13",
     "ncp": "^2.0.0"
   }
 }
