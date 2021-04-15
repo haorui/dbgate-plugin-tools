@@ -19,6 +19,7 @@
   ],
   "bin": {
     "dbgate-plugin": "./bin/dbgate-plugin.js",
+    "dbgate-copydist": "./bin/dbgate-copydist.js",
     "dbgate-plugout": "./bin/dbgate-plugout.js"
   },
   "dependencies": {
