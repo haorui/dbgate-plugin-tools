@@ -1,13 +1,15 @@
 #!/usr/bin/env node
-
 const rimraf = require('rimraf');
+const path = require('path');
+const os = require('os');
 const fs = require('fs');
 const ncp = require('ncp');
 const pacote = require('pacote');
 
-const pluginDir = process.argv[2];
-if (!pluginDir) throw new Error('Missing plugin directory');
-if (!pluginDir.includes('dbgate-plugin-')) throw new Error('Invalid plugin directory');
+const packageName = process.argv[2];
+if (!packageName) throw new Error('Missing package name');
+
+const pluginDir = path.join(os.homedir(), 'dbgate-data', 'plugins', packageName);
 
 rimraf.sync(pluginDir)
 
