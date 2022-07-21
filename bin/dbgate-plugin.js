@@ -9,7 +9,7 @@ const pacote = require('pacote');
 const packageName = process.argv[2];
 if (!packageName) throw new Error('Missing package name');
 
-const pluginDir = path.join(os.homedir(), 'dbgate-data', 'plugins', packageName);
+const pluginDir = path.join(os.homedir(), '.dbgate', 'plugins', packageName);
 
 rimraf.sync(pluginDir)
 
