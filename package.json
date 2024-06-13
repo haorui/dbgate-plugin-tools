@@ -1,11 +1,11 @@
 {
-  "name": "dbgate-plugin-tools",
-  "version": "1.0.8",
-  "homepage": "https://github.com/dbgate/dbgate-plugin-tools",
+  "name": "r-dbgate-plugin-tools",
+  "version": "2.0.0",
+  "homepage": "https://github.com/haorui/dbgate-plugin-tools",
   "description": "Tools for DbGate plugin development",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dbgate/dbgate-plugin-tools.git"
+    "url": "https://github.com/haorui/dbgate-plugin-tools.git"
   },
   "author": "Jan Prochazka",
   "license": "MIT",
@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "ncp": "^2.0.0",
-    "pacote": "^11.1.13",
-    "rimraf": "^3.0.2"
-  }
+    "pacote": "^18.0.6",
+    "rimraf": "^5.0.7"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
